@@ -1,0 +1,6 @@
+.stack-work/
+*.hi
+*.o
+*.exe
+aulas/
+data/resultado.txt

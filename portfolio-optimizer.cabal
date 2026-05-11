@@ -1,0 +1,27 @@
+cabal-version: 2.4
+name:          portfolio-optimizer
+version:       0.1.0.0
+synopsis:      Brute-force portfolio optimization with parallelism
+license:       MIT
+author:        Gustavo Mendes da Silva
+build-type:    Simple
+
+executable portfolio-optimizer
+  hs-source-dirs:   app, src
+  main-is:          Main.hs
+  other-modules:    Portfolio
+                  , DataLoader
+                  , Simulation
+                  , Types
+  default-language: Haskell2010
+  ghc-options:      -O2 -threaded -rtsopts -with-rtsopts=-N
+                    -funbox-strict-fields
+                    -fexcess-precision
+  build-depends:    base       >= 4.14 && < 5
+                  , vector     >= 0.13
+                  , random     >= 1.2
+                  , parallel   >= 3.2
+                  , deepseq    >= 1.4
+                  , bytestring >= 0.11
+                  , containers >= 0.6
+                  , time       >= 1.12
