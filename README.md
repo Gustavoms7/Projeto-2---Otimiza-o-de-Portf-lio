@@ -7,7 +7,7 @@
 | **Autor** | Gustavo Mendes da Silva |
 | **Instituição** | Insper — Instituto de Ensino e Pesquisa |
 | **Disciplina** | Programação Funcional 2026-1 |
-| **Professores** | Raul Ikeda e Fábio Ayres |
+| **Professores** | Fábio Ayres |
 
 ---
 
